@@ -28,4 +28,20 @@
   border-radius: 8px;
   cursor: pointer;
   outline: none;
+  margin-left: 10px;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  width: 90px;
+  border: 2px solid #ff8542;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 20px;
 }

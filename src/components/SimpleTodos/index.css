@@ -26,5 +26,43 @@
 }
 
 .list-container {
-  width: 800px;
+  max-width: 800px;
+}
+
+.input-container {
+  align-self: flex-start;
+  margin-left: 142px;
+}
+
+.input-element {
+  max-width: 600px;
+  width: 600px;
+  padding: 8px;
+  outline: none;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element {
+    width: 400px;
+  }
+}
+
+.add-btn {
+  color: #ffffff;
+  background-color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  width: 80px;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
 }
